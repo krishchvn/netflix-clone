@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+  /*When u try to do justify-content: space-between; with position: fixed, it doesn't work because it might get packed around and fixed. So use width: 100% and it'll get fixed. */
+  display: flex;
+  justify-content: space-between;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
