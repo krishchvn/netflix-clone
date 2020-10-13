@@ -1,3 +1,11 @@
+This is a clone of Netflix.
+Features include trailers fetched from YouTu.be and random poster banners.
+
+![test](https://github.com/krishchvn/netflix-clone/blob/master/netflix_clone__ss1.jpg){:height="100px" width="140px"}
+![test](https://github.com/krishchvn/netflix-clone/blob/master/netflix_clone__ss2.jpg){:height="100px" width="140px"}
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
